@@ -1,5 +1,5 @@
 body {
-    background: black url(background.jpg);
+    background: black url(background.jpg) no-repeat;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -19,6 +19,8 @@ div {
    text-align: center;
    border: 10px solid black;
    padding: 20px;
+   border-radius: 20px;
+   
 
 }
 
@@ -27,6 +29,8 @@ div {
     border: 10px solid white;
     padding: 20px;
     margin: 20px 0;
+    border-radius: 20px;
+    background: url(restaurant2.jpg);
     
 }
 
@@ -75,6 +79,7 @@ form input {
     color: white;
     width: 300px;
     cursor: pointer;
+    border-radius: 10px;
 }
 
 
@@ -83,6 +88,36 @@ footer p {
     color: white;
 }
 
+.reservation {
+    font-family: Georgia, 'Times', Times, serif;
+    font-style: italic;
+    border-radius: 30px;
+
+}
 
 
+@media (min-width: 992px){
+
+ .second-box {
+    display: flex;
+    /* text-align: center; */
+    justify-content: center;
+    align-items: center;
+    /* text-align: center; */
+    width: 690px;
+    border: 10px solid white;
+    padding: 20px;
+    margin: 20px 0;
+    
+}
+
+.first-box {
+   text-align: center;
+   width: 690px;
+   border: 10px solid black;
+
+
+}
+
+}
 
